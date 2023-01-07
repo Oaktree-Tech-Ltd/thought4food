@@ -1,0 +1,82 @@
+{
+    "protein": [
+        "tempeh",
+        "tofu",
+        "protein powder"
+    ],
+    "fat": [
+        "avocado",
+        "tahini",
+        "peanut butter",
+        "olive oil",
+        "coconut oil"
+    ],
+    "carbs": [
+        "seed sourdough bread"
+    ],
+    "beans": [
+        "black beans",
+        "butter beans",
+        "chickpeas"
+    ],
+    "grains": [
+        "brown rice",
+        "barley",
+        "quinoa",
+        "oats"
+    ],
+    "cruciferous": [
+        "kale",
+        "broccoli",
+        "cauliflower",
+        "cabbage"
+    ],
+    "vegetables": [
+        "carrots",
+        "mushrooms",
+        "peppers",
+        "sweet Potatoes",
+        "butternut squash",
+        "beetroots"
+    ],
+    "greens": [
+        "spinash"
+    ],
+    "nuts": [
+        "almonds",
+        "cashew",
+        "walnuts",
+        "pine nuts",
+        "brazilian nuts",
+        "hazelnuts"
+    ],
+    "seeds": [
+        "flax seeds",
+        "chia seeds",
+        "sesame seeds",
+        "hemp seeds"
+    ],
+    "spices": [
+        "turmeric",
+        "garlic",
+        "cumin",
+        "parpika"
+    ],
+    "berries": [
+        "blueberries",
+        "raspberries",
+        "strawberries"
+    ],
+    "fruits": [
+        "bananas",
+        "apples",
+        "pineapple",
+        "oranges",
+        "avocados"
+    ],
+    "juices": [
+        "orange juice",
+        "lemon juice",
+        "lime juice"
+    ]
+}

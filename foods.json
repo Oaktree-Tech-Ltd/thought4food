@@ -1,0 +1,702 @@
+[
+    {
+        "name": "tempeh",
+        "weight": "100g",
+        "macro": {
+            "calories": "207.5",
+            "protein": "21.3",
+            "carbohydrate": "1.8",
+            "fat": "10.9"
+        }
+    },
+    {
+        "name": "tofu",
+        "weight": "100g",
+        "macro": {
+            "calories": "122.9",
+            "protein": "12.6",
+            "carbohydrate": "2.9",
+            "fat": "6.9"
+        }
+    },
+    {
+        "name": "protein powder",
+        "weight": "100g",
+        "macro": {
+            "calories": "383.3",
+            "protein": "66.7",
+            "carbohydrate": "9.0",
+            "fat": "6.0"
+        }
+    },
+    {
+        "name": "avocado",
+        "weight": "100g",
+        "macro": {
+            "calories": "160.0",
+            "protein": "2.0",
+            "carbohydrate": "1.8",
+            "fat": "14.7"
+        }
+    },
+    {
+        "name": "tahini",
+        "weight": "100g",
+        "macro": {
+            "calories": "595.0",
+            "protein": "17.0",
+            "carbohydrate": "11.9",
+            "fat": "53.8"
+        }
+    },
+    {
+        "name": "peanut butter",
+        "weight": "100g",
+        "macro": {
+            "calories": "590.0",
+            "protein": "29.6",
+            "carbohydrate": "11.6",
+            "fat": "46.0"
+        }
+    },
+    {
+        "name": "yellow split peas",
+        "weight": "100g",
+        "macro": {
+            "calories": "244.0",
+            "protein": "22.2",
+            "carbohydrate": "35.5",
+            "fat": "0.0"
+        }
+    },
+    {
+        "name": "black beans",
+        "weight": "100g",
+        "macro": {
+            "calories": "140.0",
+            "protein": "8.2",
+            "carbohydrate": "15.5",
+            "fat": "0.6"
+        }
+    },
+    {
+        "name": "butter beans",
+        "weight": "100g",
+        "macro": {
+            "calories": "76.9",
+            "protein": "3.8",
+            "carbohydrate": "9.2",
+            "fat": "0.8"
+        }
+    },
+    {
+        "name": "canned chickpeas",
+        "weight": "100g",
+        "macro": {
+            "calories": "139.0",
+            "protein": "7.1",
+            "carbohydrate": "16.0",
+            "fat": "2.8"
+        }
+    },
+    {
+        "name": "brown rice",
+        "weight": "100g",
+        "macro": {
+            "calories": "362.0",
+            "protein": "7.5",
+            "carbohydrate": "72.8",
+            "fat": "2.7"
+        }
+    },
+    {
+        "name": "buckwheat",
+        "weight": "100g",
+        "macro": {
+            "calories": "346.0",
+            "protein": "11.7",
+            "carbohydrate": "64.7",
+            "fat": "2.7"
+        }
+    },
+    {
+        "name": "barley",
+        "weight": "100g",
+        "macro": {
+            "calories": "352.0",
+            "protein": "9.9",
+            "carbohydrate": "62.1",
+            "fat": "1.2"
+        }
+    },
+    {
+        "name": "quinoa",
+        "weight": "100g",
+        "macro": {
+            "calories": "368.0",
+            "protein": "14.1",
+            "carbohydrate": "57.2",
+            "fat": "6.1"
+        }
+    },
+    {
+        "name": "chickpea penne",
+        "weight": "100g",
+        "macro": {
+            "calories": "359.0",
+            "protein": "20",
+            "carbohydrate": "52",
+            "fat": "6.1"
+        }
+    },
+    {
+        "name": "spinash trottole",
+        "weight": "100g",
+        "macro": {
+            "calories": "361.0",
+            "protein": "11.4",
+            "carbohydrate": "74.0",
+            "fat": "1.5"
+        }
+    },
+    {
+        "name": "oats",
+        "weight": "100g",
+        "macro": {
+            "calories": "367.5",
+            "protein": "12.0",
+            "carbohydrate": "56.0",
+            "fat": "8.5"
+        }
+    },
+    {
+        "name": "sweet potatoes",
+        "weight": "100g",
+        "macro": {
+            "calories": "86.0",
+            "protein": "1.6",
+            "carbohydrate": "17.1",
+            "fat": "0.1"
+        }
+    },
+    {
+        "name": "potatoes",
+        "weight": "100g",
+        "macro": {
+            "calories": "77.0",
+            "protein": "2.1",
+            "carbohydrate": "15.4",
+            "fat": "0.1"
+        }
+    },
+    {
+        "name": "vine tomatoes",
+        "weight": "100g",
+        "macro": {
+            "calories": "20.1",
+            "protein": "0.7",
+            "carbohydrate": "3.1",
+            "fat": "0.3"
+        }
+    },
+    {
+        "name": "Dell Ugo, fresh potato gnocchi",
+        "weight": "100g",
+        "macro": {
+            "calories": "134.7",
+            "protein": "4.7",
+            "carbohydrate": "25.0",
+            "fat": "0.8"
+        }
+    },
+    {
+        "name": "fresh blueberries",
+        "weight": "100g",
+        "macro": {
+            "calories": "57.0",
+            "protein": "0.7",
+            "carbohydrate": "12.1",
+            "fat": "0.3"
+        }
+    },
+    {
+        "name": "fresh raspberries",
+        "weight": "100g",
+        "macro": {
+            "calories": "52.0",
+            "protein": "1.2",
+            "carbohydrate": "5.4",
+            "fat": "0.7"
+        }
+    },
+    {
+        "name": "apples",
+        "weight": "100g",
+        "macro": {
+            "calories": "52.0",
+            "protein": "0.3",
+            "carbohydrate": "10.6",
+            "fat": "0.2"
+        }
+    },
+    {
+        "name": "bananas",
+        "weight": "100g",
+        "macro": {
+            "calories": "89.0",
+            "protein": "1.1",
+            "carbohydrate": "20.2",
+            "fat": "0.3"
+        }
+    },
+    {
+        "name": "medjool date",
+        "weight": "100g",
+        "macro": {
+            "calories": "277.0",
+            "protein": "1.8",
+            "carbohydrate": "68.3",
+            "fat": "0.2"
+        }
+    },
+    {
+        "name": "tenderstem broccoli",
+        "weight": "100g",
+        "macro": {
+            "calories": "40.0",
+            "protein": "4.3",
+            "carbohydrate": "3.1",
+            "fat": "0.6"
+        }
+    },
+    {
+        "name": "kale",
+        "weight": "100g",
+        "macro": {
+            "calories": "35.0",
+            "protein": "2.9",
+            "carbohydrate": "0.2",
+            "fat": "1.5"
+        }
+    },
+    {
+        "name": "cauliflower",
+        "weight": "100g",
+        "macro": {
+            "calories": "25.0",
+            "protein": "1.9",
+            "carbohydrate": "2.9",
+            "fat": "0.3"
+        }
+    },
+    {
+        "name": "spinash",
+        "weight": "100g",
+        "macro": {
+            "calories": "23.0",
+            "protein": "2.9",
+            "carbohydrate": "1.4",
+            "fat": "0.4"
+        }
+    },
+    {
+        "name": "cooked beetroots",
+        "weight": "100g",
+        "macro": {
+            "calories": "42.0",
+            "protein": "1.4",
+            "carbohydrate": "7.2",
+            "fat": "0.3"
+        }
+    },
+    {
+        "name": "carrots",
+        "weight": "100g",
+        "macro": {
+            "calories": "41.0",
+            "protein": "0.9",
+            "carbohydrate": "6.6",
+            "fat": "0.2"
+        }
+    },
+    {
+        "name": "oyster mushrooms",
+        "weight": "100g",
+        "macro": {
+            "calories": "33.0",
+            "protein": "3.3",
+            "carbohydrate": "3.5",
+            "fat": "0.4"
+        }
+    },
+    {
+        "name": "shiitake mushrooms",
+        "weight": "100g",
+        "macro": {
+            "calories": "34.0",
+            "protein": "2.2",
+            "carbohydrate": "4.3",
+            "fat": "0.5"
+        }
+    },
+    {
+        "name": "bell peppers",
+        "weight": "100g",
+        "macro": {
+            "calories": "26.0",
+            "protein": "1.0",
+            "carbohydrate": "3.9",
+            "fat": "0.3"
+        }
+    },
+    {
+        "name": "onions",
+        "weight": "100g",
+        "macro": {
+            "calories": "40.0",
+            "protein": "1.1",
+            "carbohydrate": "7.7",
+            "fat": "0.1"
+        }
+    },
+    {
+        "name": "red onions",
+        "weight": "100g",
+        "macro": {
+            "calories": "41.0",
+            "protein": "1.0",
+            "carbohydrate": "8.0",
+            "fat": "0.5"
+        }
+    },
+    {
+        "name": "green beans",
+        "weight": "100g",
+        "macro": {
+            "calories": "35.0",
+            "protein": "1.8",
+            "carbohydrate": "4.4",
+            "fat": "0.5"
+        }
+    },
+    {
+        "name": "Kalamata, olives",
+        "weight": "100g",
+        "macro": {
+            "calories": "172.0",
+            "protein": "0.9",
+            "carbohydrate": "2.1",
+            "fat": "18.7"
+        }
+    },
+    {
+        "name": "Waitrose, sliced artichoke hearts",
+        "weight": "100g",
+        "macro": {
+            "calories": "150.0",
+            "protein": "2.1",
+            "carbohydrate": "9.8",
+            "fat": "10.5"
+        }
+    },
+    {
+        "name": "passata",
+        "weight": "100g",
+        "macro": {
+            "calories": "28",
+            "protein": "1.4",
+            "carbohydrate": "4.9",
+            "fat": "0.1"
+        }   
+    },
+    {
+        "name": "ground sprouted flaxseeds",
+        "weight": "100g",
+        "macro": {
+            "calories": "546.7",
+            "protein": "20.0",
+            "carbohydrate": "5.7",
+            "fat": "43.3"
+        }   
+    },
+    {
+        "name": "almonds",
+        "weight": "100g",
+        "macro": {
+            "calories": "579.0",
+            "protein": "21.2",
+            "carbohydrate": "8.8",
+            "fat": "49.9"
+        }   
+    },
+    {
+        "name": "pine nuts",
+        "weight": "100g",
+        "macro": {
+            "calories": "629.0",
+            "protein": "11.6",
+            "carbohydrate": "8.6",
+            "fat": "61.0"
+        }   
+    },
+    {
+        "name": "brazil nuts",
+        "weight": "100g",
+        "macro": {
+            "calories": "659.0",
+            "protein": "14.3",
+            "carbohydrate": "4.2",
+            "fat": "67.1"
+        }   
+    },
+    {
+        "name": "oatly organic milk",
+        "weight": "100g",
+        "macro": {
+            "calories": "40.0",
+            "protein": "1.0",
+            "carbohydrate": "6.7",
+            "fat": "0.5"
+        }
+    },
+    {
+        "name": "activated almond milk",
+        "weight": "100g",
+        "macro": {
+            "calories": "30.8",
+            "protein": "0.6",
+            "carbohydrate": "3.2",
+            "fat": "1.7"
+        }
+    },
+    {
+        "name": "mapple syrup",
+        "weight": "100g",
+        "macro": {
+            "calories": "30.8",
+            "protein": "0.6",
+            "carbohydrate": "3.2",
+            "fat": "1.7"
+        }
+    },
+    {
+        "name": "chocolate chips",
+        "weight": "100g",
+        "macro": {
+            "calories": "505",
+            "protein": "6.2",
+            "carbohydrate": "49.3",
+            "fat": "29.3"
+        }
+    },
+    {
+        "name": "sourdough baguettes",
+        "weight": "100g",
+        "macro": {
+            "calories": "252",
+            "protein": "8.20",
+            "carbohydrate": "52",
+            "fat": "0.90"
+        }
+    },
+    {
+        "name": "sourdough loaf",
+        "weight": "100g",
+        "macro": {
+            "calories": "272.0",
+            "protein": "10.8",
+            "carbohydrate": "49.6",
+            "fat": "2.4"
+        }
+    },
+    {
+        "name": "nutritional yeast",
+        "weight": "100g",
+        "macro": {
+            "calories": "400.0",
+            "protein": "46.7",
+            "carbohydrate": "20.0",
+            "fat": "6.7"
+        }
+    },
+    {
+        "name": "Optima, sour cherry juice concentrate",
+        "weight": "100g",
+        "macro": {
+            "calories": "260.0",
+            "protein": "1.5",
+            "carbohydrate": "63.0",
+            "fat": "0.2"
+        }
+    },
+    {
+        "name": "Richmond, sausages",
+        "weight": "100g",
+        "macro": {
+            "calories": "8.5",
+            "protein": "1.5",
+            "carbohydrate": "14.0",
+            "fat": "5.0"
+        }
+    },
+    {
+        "name": "Heck, sausages",
+        "weight": "100g",
+        "macro": {
+            "calories": "148.9",
+            "protein": "5.5",
+            "carbohydrate": "8.1",
+            "fat": "7.8"
+        }
+    },
+    {
+        "name": "mexican rice",
+        "weight": "100g",
+        "macro": {
+            "calories": "164",
+            "protein": "3.4",
+            "carbohydrate": "33.8",
+            "fat": "1.8"
+        }
+    },
+    {
+        "name": "pinto beans",
+        "weight": "100g",
+        "macro": {
+            "calories": "108",
+            "protein": "6.8",
+            "carbohydrate": "23.3",
+            "fat": "0.8"
+        }
+    },
+    {
+        "name": "seasonal veg",
+        "weight": "100g",
+        "macro": {
+            "calories": "12.4",
+            "protein": "0.6",
+            "carbohydrate": "3.1",
+            "fat": "0.2"
+        }
+    },
+    {
+        "name": "guacamole",
+        "weight": "100g",
+        "macro": {
+            "calories": "95.4",
+            "protein": "1.0",
+            "carbohydrate": "1.6",
+            "fat": "9.4"
+        }
+    },
+    {
+        "name": "verde",
+        "weight": "100g",
+        "macro": {
+            "calories": "10.0",
+            "protein": "0.2",
+            "carbohydrate": "2.0",
+            "fat": "0.2"
+        }
+    },
+    {
+        "name": "medium wrap",
+        "weight": "100g",
+        "macro": {
+            "calories": "195.4",
+            "protein": "4.8",
+            "carbohydrate": "36.2",
+            "fat": "3.2"
+        }
+    },
+    {
+        "name": "vegatsu",
+        "weight": "100g",
+        "macro": {
+            "calories": "1110",
+            "protein": "49.67",
+            "carbohydrate": "129.14",
+            "fat": "42.73"
+        }
+    },
+    {
+        "name": "no duck donburi",
+        "weight": "100g",
+        "macro": {
+            "calories": "463",
+            "protein": "26.85",
+            "carbohydrate": "51.71",
+            "fat": "13.63"
+        }
+    },
+    {
+        "name": "mixed mushroom + panko aubergine hirata steamed buns",
+        "weight": "100g",
+        "macro": {
+            "calories": "338",
+            "protein": "7.37",
+            "carbohydrate": "36.86",
+            "fat": "17.29"
+        }
+    },
+    {
+        "name": "miso caramel ice cream",
+        "weight": "100g",
+        "macro": {
+            "calories": "419",
+            "protein": "2.77",
+            "carbohydrate": "69.06",
+            "fat": "14.82"
+        }
+    },
+    {
+        "name": "vegan chilli squid",
+        "weight": "100g",
+        "macro": {
+            "calories": "575",
+            "protein": "15.00",
+            "carbohydrate": "40.96",
+            "fat": "38.14"
+        }
+    },
+    {
+        "name": "avant gardn",
+        "weight": "100g",
+        "macro": {
+            "calories": "567",
+            "protein": "33.51",
+            "carbohydrate": "76.99",
+            "fat": "12.03"
+        }
+    },
+    {
+        "name": "Earth Balance, Vegan Butter",
+        "weight": "100g",
+        "macro": {
+            "calories": "714.3",
+            "protein": "0.0",
+            "carbohydrate": "0.0",
+            "fat": "78.6"
+        }
+    },
+    {
+        "name": "vegan tuna",
+        "weight": "100g",
+        "macro": {
+            "calories": "70.2",
+            "protein": "12.3",
+            "carbohydrate": "0.0",
+            "fat": "0.0"
+        }
+    },
+    {
+        "name": "vegan mayo",
+        "weight": "100g",
+        "macro": {
+            "calories": "653.3",
+            "protein": "0.3",
+            "carbohydrate": "4.0",
+            "fat": "73.3"
+        }
+    }
+]
