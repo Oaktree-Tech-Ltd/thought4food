@@ -1,5 +1,9 @@
 {
   "items": [
-    "black beans:400"
+    {
+      "expiry-date": "n/a",
+      "name": "black beans",
+      "quantity": "400"
+    }
   ]
 }

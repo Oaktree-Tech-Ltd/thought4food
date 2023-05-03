@@ -1,3 +1,10 @@
 {
-  "recipe-name": []
+  "black beans recipe": {
+    "ingredients": [
+      "black beans:400"
+    ],
+    "instructions": [
+      "instruction"
+    ]
+  }
 }
