@@ -1,5 +1,15 @@
 # Food Plan
 
+## Goals
+
+1. Keep track of pantry
+2. Find recipes available
+3. Create weekly food plan
+4. Generate shopping list
+5. Log calories
+
+## Scripts
+
 ## Collect data
 
 ```

@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const foods = JSON.parse(fs.readFileSync("./foods.json", "utf8"));
+const foods = JSON.parse(fs.readFileSync("./db/foods.json", "utf8"));
 
 const percentage = (total, value) => (value * 100) / total;
 
