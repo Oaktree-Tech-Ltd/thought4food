@@ -17,7 +17,7 @@ import {
   saveDayPlan,
   stringifyRecipe,
   today,
-  yesterday
+  yesterday,
 } from "../src/helpers/index.js";
 import { editor, input } from "@inquirer/prompts";
 
@@ -97,7 +97,7 @@ program
         default: stringifyRecipe(recipe),
       });
 
-      addRecipe(options.recipe, {...recipe, ...parseRecipe(rawRecipe)});
+      addRecipe(options.recipe, { ...recipe, ...parseRecipe(rawRecipe) });
       console.log(`${options.recipe} updated`);
     } else {
       console.log("no action found...");
@@ -136,13 +136,17 @@ program
 
     const dayPlan = findDayPlan({ profile, day });
 
-    if (dayPlan && options.edit) {
+    if (options.edit) {
       const rawDayplan = await editor({
         message: "Edit day plan",
-        default: JSON.stringify(dayPlan, null, 4),
+        default: dayPlan ? JSON.stringify(dayPlan, null, 4) : "",
       });
 
-      saveDayPlan({ profile, day, plan: JSON.parse(rawDayplan) });
+      saveDayPlan({
+        profile,
+        day,
+        plan: rawDayplan !== "" ? JSON.parse(rawDayplan) : {},
+      });
       console.log(`Day plan for ${day} saved.`);
     } else if (dayPlan && options.showNutritionInfo) {
       const info = getNutritionInfo(dayPlan);
