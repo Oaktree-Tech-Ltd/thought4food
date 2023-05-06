@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import {
+  RAW_RECIPE,
   addFood,
   addRecipe,
   addRecipeToPlan,
@@ -80,15 +81,20 @@ program
       const macro = await editor({
         message: "Enter macro info",
       });
-      addFood({ foodName: options.food, macro: JSON.parse(macro) });
+      macro !== "" &&
+        addFood({ foodName: options.food, macro: JSON.parse(macro) });
     } else if (options.recipe) {
       const rawRecipe = await editor({
         message: "Enter a recipe",
-        default: `- ingredient\n\n1. instruction`,
+        default: RAW_RECIPE,
       });
 
-      addRecipe(options.recipe, parseRecipe(rawRecipe));
-      console.log(`Added ${options.recipe}`);
+      if (rawRecipe !== RAW_RECIPE) {
+        addRecipe(options.recipe, parseRecipe(rawRecipe));
+        console.log(`Added ${options.recipe}`);
+      } else {
+        console.log("Canceled");
+      }
     } else {
       console.log("no action found...");
     }
@@ -106,8 +112,12 @@ program
         default: stringifyRecipe(recipe),
       });
 
-      addRecipe(options.recipe, { ...recipe, ...parseRecipe(rawRecipe) });
-      console.log(`${options.recipe} updated`);
+      if (rawRecipe !== "") {
+        addRecipe(options.recipe, { ...recipe, ...parseRecipe(rawRecipe) });
+        console.log(`${options.recipe} updated`);
+      } else {
+        console.log("Canceled");
+      }
     } else {
       console.log("no action found...");
     }
@@ -151,12 +161,16 @@ program
         default: dayPlan ? JSON.stringify(dayPlan, null, 4) : "",
       });
 
-      saveDayPlan({
-        profile,
-        day,
-        plan: rawDayplan !== "" ? JSON.parse(rawDayplan) : {},
-      });
-      console.log(`Day plan for ${day} saved.`);
+      if (rawDayplan !== "") {
+        saveDayPlan({
+          profile,
+          day,
+          plan: rawDayplan !== "" ? JSON.parse(rawDayplan) : {},
+        });
+        console.log(`Day plan for ${day} saved.`);
+      } else {
+        console.log("Canceled");
+      }
     } else if (dayPlan && options.showNutritionInfo) {
       const info = getNutritionInfo(dayPlan);
       console.log(formatNutritionInfo(info));

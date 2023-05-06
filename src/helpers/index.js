@@ -1,6 +1,6 @@
 // Define and Expose public helper functions
 
-export { addRecipe, parseRecipe, findAvailableRecipes, findRecipe, stringifyRecipe } from "./recipes.js";
+export { addRecipe, parseRecipe, findAvailableRecipes, findRecipe, stringifyRecipe, RAW_RECIPE } from "./recipes.js";
 export { addToPantry, inPantry } from "./pantry.js";
 export { findFood, parseFood, getNutritionInfo, formatNutritionInfo, addFood } from "./foods.js";
 export { today, yesterday, daysToCome } from "./time.js"

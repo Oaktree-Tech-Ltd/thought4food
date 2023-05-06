@@ -5,6 +5,7 @@ import { parseFood } from "./foods.js";
 
 const db = localDb(Keys.RECIPES);
 
+export const RAW_RECIPE = `- ingredient\n\n1. instruction`
 const emptyRecipe = { ingredients: [], instructions: [], tags: [] };
 
 export const findRecipe = (title) => {
