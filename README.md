@@ -8,7 +8,7 @@ More food, fewer calories.
 2. Find/manage available recipes 
 3. Create/manage weekly food plan
 4. Log calories
-5. Generate shopping list
+5. Generate/manage shopping list
 
 ## Usage
 
@@ -78,4 +78,13 @@ Which day:
 Which day:
 - `--today`
 - `--yesterday`
+- `--day <date>`
+
+### Generate/manage shopping list
+
+#### Show shopping list for the coming days
+
+`node bin/cli.js shopping-list --days <number-of-days>`
+
+Starting day:
 - `--day <date>`

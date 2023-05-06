@@ -5,13 +5,16 @@ import {
   addRecipeToPlan,
   addToPantry,
   addToPlan,
+  daysToCome,
   findAvailableRecipes,
   findDayPlan,
   findFood,
   findFoodInPlan,
+  findFoodsByDay,
   findRecipe,
   formatNutritionInfo,
   getNutritionInfo,
+  inPantry,
   parseFood,
   parseRecipe,
   saveDayPlan,
@@ -176,6 +179,36 @@ program
     } else {
       console.log("no action found...");
     }
+  });
+
+program
+  .command("shopping-list")
+  .description("show items to buy")
+  .option("-d, --day <day>", "get plan starting from a specific day")
+  .option(
+    "-ds, --days <days>",
+    "days in the food plan to find missing food items"
+  )
+  .option("-p, --profile", "user profile")
+  .action((options) => {
+    const profile = options.profile || "samir";
+    const day = options.day || today();
+    
+    const planToCome = daysToCome({ startingDay: day, days: options.days }).map((day) => ({
+      day,
+      foods: findFoodsByDay({ profile, day }).filter((food) => !inPantry(food)),
+    }));
+    console.log(
+      `${planToCome.reduce(
+        (acc, dayPlan) =>
+          `${acc}${dayPlan.day}:\n${
+            dayPlan.foods.length > 0
+              ? dayPlan.foods.reduce((acc, food) => `${acc}- ${food}\n`, "")
+              : "[]"
+          }\n\n`,
+        ""
+      )}`
+    );
   });
 
 program.parse(process.argv);

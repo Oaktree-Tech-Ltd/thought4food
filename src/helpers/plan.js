@@ -15,7 +15,7 @@ export const saveDayPlan = ({ profile, day, plan }) => {
 
 export const addToPlan = ({ profile, day, foodGroup, food }) => {
   const plan = findDayPlan({ profile, day });
-  
+
   if (plan) {
     plan[foodGroup] = [...plan[foodGroup], food];
   } else {
@@ -28,7 +28,7 @@ export const addToPlan = ({ profile, day, foodGroup, food }) => {
 
 export const addRecipeToPlan = ({ profile, day, foodGroup, foods }) => {
   const plan = findDayPlan({ profile, day });
-  
+
   if (plan && plan[foodGroup]) {
     plan[foodGroup] = [...plan[foodGroup], ...foods];
   } else if (plan) {
@@ -65,4 +65,16 @@ export const findFoodInPlan = ({ profile, food }) => {
   return Object.keys(foodList)
     .map((key) => ({ ocurrences: foodList[key], food: key }))
     .sort((a, b) => b.ocurrences - a.ocurrences);
+};
+
+export const findFoodsByDay = ({ profile, day }) => {
+  const plan = db.data[profile][day];
+
+  if (plan) {
+    return Object.keys(plan)
+      .map((groupKey) => plan[groupKey])
+      .reduce((acc, foodItems) => [...acc, ...foodItems], []);
+  } else {
+    return [];
+  }
 };
