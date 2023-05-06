@@ -1,6 +1,17 @@
-import fs from "fs";
+import { Keys, localDb } from "./db.js";
 
-const foods = JSON.parse(fs.readFileSync("./db/foods.json", "utf8"));
+const db = localDb(Keys.FOODS);
+const foods = db.data;
+
+export const addFood = ({ foodName, macro }) => {
+  const result = findFood({ foodName, fuzzy: false });
+  if (result.length === 0) {
+    foods.push({ name: foodName, macro, weight: "100g" });
+    db.write();
+  } else {
+    console.log("Food already in db.");
+  }
+};
 
 export const findFood = ({ foodName, fuzzy = true }) => {
   if (fuzzy) {

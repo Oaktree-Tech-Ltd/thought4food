@@ -5,6 +5,7 @@ export const Keys = {
   RECIPES: "recipes",
   PANTRY: "pantry",
   PLAN: "plan",
+  FOODS: "foods",
 };
 
 export const localDb = (key) => {

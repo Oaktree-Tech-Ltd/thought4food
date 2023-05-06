@@ -698,5 +698,15 @@
       "carbohydrate": "4.0",
       "fat": "73.3"
     }
+  },
+  {
+    "name": "coconut oil",
+    "macro": {
+      "calories": "892.0",
+      "protein": "0.0",
+      "carbohydrate": "0.0",
+      "fat": "99.1"
+    },
+    "weight": "100g"
   }
 ]

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import {
+  addFood,
   addRecipe,
   addRecipeToPlan,
   addToPantry,
@@ -60,7 +61,7 @@ program
   .option("-r, --recipe <recipe-title>", "recipe title")
   .option("-to-p, --to-pantry", "add to pantry")
   .action(async (options) => {
-    if (options.food) {
+    if (options.food && options.toPantry) {
       const food = parseFood(options.food);
       const result = findFood({ foodName: food.name, fuzzy: false });
 
@@ -75,6 +76,11 @@ program
       } else {
         console.error("Unknow food item");
       }
+    } else if (options.food) {
+      const macro = await editor({
+        message: "Enter macro info",
+      });
+      addFood({ foodName: options.food, macro: JSON.parse(macro) });
     } else if (options.recipe) {
       const rawRecipe = await editor({
         message: "Enter a recipe",
@@ -193,11 +199,15 @@ program
   .action((options) => {
     const profile = options.profile || "samir";
     const day = options.day || today();
-    
-    const planToCome = daysToCome({ startingDay: day, days: options.days }).map((day) => ({
-      day,
-      foods: findFoodsByDay({ profile, day }).filter((food) => !inPantry(food)),
-    }));
+
+    const planToCome = daysToCome({ startingDay: day, days: options.days }).map(
+      (day) => ({
+        day,
+        foods: findFoodsByDay({ profile, day }).filter(
+          (food) => !inPantry(food)
+        ),
+      })
+    );
     console.log(
       `${planToCome.reduce(
         (acc, dayPlan) =>

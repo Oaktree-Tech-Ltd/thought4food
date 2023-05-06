@@ -14,6 +14,10 @@ More food, fewer calories.
 
 ### Keep track of pantry
 
+#### Add food
+
+`node bin/cli.js add --food <food-name>`
+
 #### Find food
 
 `node bin/cli.js find --food <food-name>`
