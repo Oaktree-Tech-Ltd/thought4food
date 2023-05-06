@@ -15,8 +15,9 @@ import {
   parseFood,
   parseRecipe,
   saveDayPlan,
+  stringifyRecipe,
   today,
-  yesterday,
+  yesterday
 } from "../src/helpers/index.js";
 import { editor, input } from "@inquirer/prompts";
 
@@ -85,6 +86,25 @@ program
   });
 
 program
+  .command("edit")
+  .description("edit recipe")
+  .option("-r, --recipe <recipe-title>", "recipe title")
+  .action(async (options) => {
+    const recipe = findRecipe(options.recipe);
+    if (recipe) {
+      const rawRecipe = await editor({
+        message: "Edit recipe",
+        default: stringifyRecipe(recipe),
+      });
+
+      addRecipe(options.recipe, {...recipe, ...parseRecipe(rawRecipe)});
+      console.log(`${options.recipe} updated`);
+    } else {
+      console.log("no action found...");
+    }
+  });
+
+program
   .command("plan")
   .description("view and manage food plan")
   .option("-p, --profile", "user profile")
@@ -122,14 +142,14 @@ program
         default: JSON.stringify(dayPlan, null, 4),
       });
 
-      saveDayPlan({profile, day, plan: JSON.parse(rawDayplan)});
+      saveDayPlan({ profile, day, plan: JSON.parse(rawDayplan) });
       console.log(`Day plan for ${day} saved.`);
     } else if (dayPlan && options.showNutritionInfo) {
       const info = getNutritionInfo(dayPlan);
       console.log(formatNutritionInfo(info));
     } else if (options.addRecipe) {
       const recipe = findRecipe(options.addRecipe);
-      
+
       if (recipe) {
         addRecipeToPlan({
           profile,
@@ -141,7 +161,7 @@ program
       }
     } else if (options.addFood) {
       const foodInfo = findFoodInPlan({ profile, food: options.addFood });
-      
+
       addToPlan({
         profile,
         day,

@@ -5,10 +5,10 @@ import { parseFood } from "./foods.js";
 
 const db = localDb(Keys.RECIPES);
 
-const emptyRecipe = { ingredients: [], instructions: [] };
+const emptyRecipe = { ingredients: [], instructions: [], tags: [] };
 
 export const findRecipe = (title) => {
-  return db.data[title]
+  return db.data[title];
 };
 
 export const addRecipe = (title, recipe) => {
@@ -28,10 +28,25 @@ export const parseRecipe = (rawRecipe) =>
         ...acc,
         ingredients: [...acc.ingredients, val.replace(/^- /, "")],
       };
+    } else if (/^#/.test(val)) {
+      return {
+        ...acc,
+        tags: [...acc.tags, val.replace(/^#/, "")],
+      };
     } else {
       return acc;
     }
   }, emptyRecipe);
+
+export const stringifyRecipe = (recipe) => {
+  return `${recipe.ingredients.reduce(
+    (acc, ingredient) => `${acc}- ${ingredient}\n`,
+    ""
+  )}\n${recipe.instructions.reduce(
+    (acc, ingredient, index) => `${acc}${index + 1}. ${ingredient}\n`,
+    ""
+  )}\n${recipe.tags.reduce((acc, tag) => `${acc}#${tag}\n`, "")}`;
+};
 
 export const findAvailableRecipes = (fuzzy) =>
   Object.keys(db.data).reduce((acc, key) => {

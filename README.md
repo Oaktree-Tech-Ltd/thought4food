@@ -44,7 +44,7 @@ More food, fewer calories.
 
 #### Plan recipes
 
-`node bin/cli.js plan -add-recipe <recipe-title>`
+`node bin/cli.js plan --add-recipe <recipe-title>`
 
 Which day:
 - `--today`
@@ -53,7 +53,7 @@ Which day:
 
 #### Add a food item to a day plan
 
-`node bin/cli.js plan -add-food <food-name> --food-group <food-group>`
+`node bin/cli.js plan --add-food <food-name> --food-group <food-group>`
 
 Which day:
 - `--today`
@@ -62,7 +62,7 @@ Which day:
 
 #### Edit plan
 
-`node bin/cli.js plan -edit`
+`node bin/cli.js plan --edit`
 
 Which day:
 - `--today`
