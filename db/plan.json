@@ -1,0 +1,439 @@
+{
+  "samir": {
+    "base": {
+      "berries": [
+        "fresh blueberries:74"
+      ],
+      "other fruits": [
+        "apples:182",
+        "bananas:118",
+        "medjool date:24"
+      ],
+      "cruciferous vegetables": [
+        "kale:40"
+      ],
+      "other vegetables": [
+        "carrots:55",
+        "oyster mushrooms:43",
+        "shiitake mushrooms:35"
+      ],
+      "seeds": [
+        "ground sprouted flaxseeds:10"
+      ],
+      "beverages": [
+        "activated almond milk:240",
+        "activated almond milk:120"
+      ],
+      "protein": [
+        "protein powder:60"
+      ]
+    },
+    "25/07/2021": {
+      "breakfast": [
+        "oats:80",
+        "almonds:30",
+        "protein powder:35",
+        "oatly organic milk:40",
+        "peanut butter:32",
+        "ground sprouted flaxseeds:10"
+      ],
+      "lunch": [
+        "medium wrap",
+        "mexican rice",
+        "pinto beans",
+        "seasonal veg",
+        "guacamole",
+        "verde"
+      ],
+      "post workout": [
+        "protein powder:40",
+        "activated almond milk:240"
+      ]
+    },
+    "26/07/2021": {
+      "breakfast": [
+        "oats:80",
+        "activated almond milk:240",
+        "peanut butter:32",
+        "ground sprouted flaxseeds:10"
+      ],
+      "lunch": [
+        "medium wrap",
+        "mexican rice",
+        "pinto beans",
+        "seasonal veg",
+        "guacamole",
+        "verde"
+      ],
+      "post workout": [
+        "protein powder:60",
+        "fresh blueberries:60",
+        "activated almond milk:240",
+        "tofu:115",
+        "bananas:118",
+        "peanut butter:15"
+      ]
+    },
+    "27/07/2021": {
+      "breakfast": [
+        "oats:80",
+        "activated almond milk:240",
+        "peanut butter:32",
+        "ground sprouted flaxseeds:10"
+      ],
+      "lunch": [
+        "vegatsu:100"
+      ],
+      "post workout": [
+        "protein powder:60",
+        "fresh blueberries:60",
+        "spinash:40"
+      ]
+    },
+    "28/07/2021": {
+      "breakfast": [
+        "oats:70",
+        "activated almond milk:240",
+        "peanut butter:32",
+        "ground sprouted flaxseeds:10"
+      ],
+      "post workout": [
+        "activated almond milk:240",
+        "protein powder:60",
+        "peanut butter:32",
+        "Optima, sour cherry juice concentrate:25",
+        "fresh blueberries:60",
+        "bananas:118",
+        "kale:40"
+      ],
+      "dinner": [
+        "tofu:100",
+        "potatoes:450",
+        "tenderstem broccoli:215",
+        "shiitake mushrooms:80"
+      ]
+    },
+    "29/07/2021": {
+      "breakfast": [
+        "oats:70",
+        "activated almond milk:240",
+        "peanut butter:32",
+        "ground sprouted flaxseeds:10"
+      ],
+      "post workout": [
+        "protein powder:80",
+        "Optima, sour cherry juice concentrate:25",
+        "fresh blueberries:60",
+        "kale:40"
+      ],
+      "lunch": [
+        "medium wrap",
+        "mexican rice",
+        "pinto beans",
+        "seasonal veg",
+        "guacamole",
+        "verde"
+      ]
+    },
+    "30/07/2021": {
+      "breakfast": [
+        "tofu:150"
+      ],
+      "post workout": [
+        "protein powder:80",
+        "Optima, sour cherry juice concentrate:25",
+        "activated almond milk:240"
+      ],
+      "dinner": [
+        "black beans:120",
+        "protein powder:3",
+        "peanut butter:36",
+        "activated almond milk:120",
+        "fresh blueberries:60",
+        "bananas:118",
+        "kale:40"
+      ]
+    },
+    "31/07/2021": {
+      "breakfast": [
+        "sourdough loaf:96",
+        "vine tomatoes:100",
+        "Heck, sausages:77",
+        "Earth Balance, Vegan Butter:28"
+      ],
+      "lunch": [
+        "protein powder:36",
+        "activated almond milk:240",
+        "fresh blueberries:60",
+        "kale:40",
+        "almonds:30",
+        "peanut butter:36"
+      ],
+      "dinner": [
+        "tempeh:100",
+        "brown rice:60",
+        "black beans:117"
+      ]
+    },
+    "01/08/2021": {
+      "breakfast": [
+        "sourdough loaf:32",
+        "avocado:150",
+        "tempeh:100"
+      ],
+      "lunch": [
+        "potatoes:150",
+        "vegan tuna:71",
+        "vegan mayo:24",
+        "bell peppers:119",
+        "red onions:70"
+      ],
+      "snack": [
+        "protein powder:32"
+      ],
+      "dinner": [
+        "vegan chilli squid:50",
+        "avant gardn:100"
+      ]
+    },
+    "02/08/2021": {
+      "pre workout": [
+        "protein powder:32"
+      ],
+      "breakfast": [
+        "oats:70",
+        "activated almond milk:240",
+        "peanut butter:32",
+        "ground sprouted flaxseeds:10"
+      ],
+      "lunch": [
+        "tempeh:100",
+        "brown rice:60"
+      ],
+      "dinner": [
+        "avant gardn:100"
+      ]
+    },
+    "03/08/2021": {
+      "pre workout": [
+        "protein powder:32"
+      ],
+      "breakfast": [
+        "oats:70",
+        "activated almond milk:240",
+        "peanut butter:32",
+        "ground sprouted flaxseeds:10"
+      ],
+      "lunch": [
+        "Dell Ugo, fresh potato gnocchi:300",
+        "kale:20",
+        "red onions:20",
+        "shiitake mushrooms:30"
+      ],
+      "snack": [
+        "activated almond milk:360",
+        "protein powder:32",
+        "fresh blueberries:60"
+      ],
+      "dinner": [
+        "tenderstem broccoli:77",
+        "bell peppers:42",
+        "green beans:56",
+        "buckwheat:80",
+        "tempeh:100"
+      ]
+    },
+    "04/08/2021": {
+      "breakfast": [
+        "oats:70",
+        "activated almond milk:240",
+        "peanut butter:32",
+        "ground sprouted flaxseeds:10"
+      ],
+      "lunch": [
+        "tenderstem broccoli:77",
+        "bell peppers:42",
+        "buckwheat:80"
+      ],
+      "post workout": [
+        "activated almond milk:360",
+        "protein powder:32"
+      ],
+      "dinner": [
+        "protein powder:45",
+        "activated almond milk:240",
+        "fresh blueberries:42",
+        "kale:40",
+        "peanut butter:40"
+      ]
+    },
+    "05/08/2021": {
+      "breakfast": [
+        "oats:70",
+        "activated almond milk:240",
+        "peanut butter:32",
+        "ground sprouted flaxseeds:10"
+      ],
+      "pre workout": [
+        "activated almond milk:200",
+        "protein powder:32"
+      ],
+      "lunch": [
+        "activated almond milk:200",
+        "protein powder:60",
+        "Optima, sour cherry juice concentrate:25",
+        "fresh blueberries:60",
+        "kale:40"
+      ]
+    },
+    "06/08/2021": {
+      "breakfast": [
+        "tofu:100",
+        "sourdough loaf:96"
+      ],
+      "lunch": [
+        "no duck donburi:100",
+        "mixed mushroom + panko aubergine hirata steamed buns:50",
+        "miso caramel ice cream:100",
+        "vine tomatoes:100"
+      ],
+      "dinner": [
+        "activated almond milk:240",
+        "ground sprouted flaxseeds:10",
+        "protein powder:60",
+        "fresh blueberries:60",
+        "kale:40"
+      ]
+    },
+    "07/08/2021": {
+      "pre-workout": [
+        "activated almond milk:240",
+        "protein powder:30"
+      ],
+      "breakfast": [
+        "oats:80",
+        "peanut butter:32",
+        "ground sprouted flaxseeds:10"
+      ],
+      "lunch": [
+        "barley:50",
+        "brown rice:50",
+        "tempeh:100",
+        "black beans:120",
+        "sweet potatoes:110",
+        "shiitake mushrooms:35"
+      ],
+      "snack": [
+        "activated almond milk:240",
+        "protein powder:30",
+        "fresh blueberries:60",
+        "bananas:118",
+        "peanut butter:15",
+        "kale:40"
+      ],
+      "dinner": [
+        "barley:50",
+        "brown rice:50",
+        "tempeh:100",
+        "black beans:120",
+        "sweet potatoes:110",
+        "tenderstem broccoli:50"
+      ]
+    },
+    "08/08/2021": {
+      "pre workout": [
+        "protein powder:40",
+        "fresh blueberries:60",
+        "activated almond milk:240",
+        "kale:40",
+        "peanut butter:32",
+        "bananas:118",
+        "ground sprouted flaxseeds:10"
+      ],
+      "post workout": [
+        "activated almond milk:120",
+        "protein powder:30",
+        "Optima, sour cherry juice concentrate:25"
+      ],
+      "lunch": [
+        "chickpea penne:60",
+        "tofu:120",
+        "shiitake mushrooms:70",
+        "nutritional yeast:7.5",
+        "tahini:7.5",
+        "activated almond milk:120"
+      ],
+      "dinner": [
+        "protein powder:30",
+        "activated almond milk:240"
+      ]
+    },
+    "09/08/2021": {
+      "pre workout": [
+        "protein powder:40",
+        "fresh blueberries:60",
+        "activated almond milk:240",
+        "kale:40",
+        "bananas:118",
+        "peanut butter:32",
+        "ground sprouted flaxseeds:10",
+        "oats:50"
+      ],
+      "post workout": [
+        "activated almond milk:120",
+        "protein powder:30",
+        "medjool date:24",
+        "Optima, sour cherry juice concentrate:25"
+      ],
+      "lunch": [
+        "barley:50",
+        "brown rice:50",
+        "tempeh:100",
+        "black beans:120",
+        "sweet potatoes:110",
+        "shiitake mushrooms:35"
+      ]
+    },
+    "03/04/2023": {
+      "breakfast": [
+        "oats:70",
+        "peanut butter:32",
+        "ground sprouted flaxseeds:10"
+      ],
+      "pre workout": [
+        "protein powder:32"
+      ],
+      "lunch": [
+        "barley:50",
+        "black beans:120",
+        "sweet potatoes:110",
+        "shiitake mushrooms:35"
+      ],
+      "afternoon protein": [
+        "protein powder:40",
+        "fresh blueberries:60",
+        "activated almond milk:240",
+        "kale:40",
+        "bananas:118"
+      ],
+      "dinner": [
+        "barley:50",
+        "tempeh:100",
+        "sweet potatoes:110",
+        "shiitake mushrooms:35"
+      ]
+    },
+    "05/05/2023": {
+      "breakfast": [
+        "black beans:120"
+      ],
+      "chickpea cookie dough": [
+        "canned chickpeas:82",
+        "peanut butter:32",
+        "mapple syrup:20",
+        "chocolate chips:22",
+        "protein powder:10"
+      ]
+    }
+  }
+}

@@ -7,6 +7,10 @@ const db = localDb(Keys.RECIPES);
 
 const emptyRecipe = { ingredients: [], instructions: [] };
 
+export const findRecipe = (title) => {
+  return db.data[title]
+};
+
 export const addRecipe = (title, recipe) => {
   db.data[title] = recipe;
   db.write();

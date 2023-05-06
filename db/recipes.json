@@ -1,10 +1,16 @@
 {
-  "black beans recipe": {
+  "chickpea cookie dough": {
     "ingredients": [
-      "black beans:400"
+      "canned chickpeas:82",
+      "peanut butter:32",
+      "mapple syrup:20",
+      "chocolate chips:22",
+      "protein powder:10"
     ],
     "instructions": [
-      "instruction"
-    ]
+      "combine everything execpt chocolate chips in blender",
+      "transfert to a large bowl and mix in chocolate chips"
+    ],
+    "tags": ["dessert"]
   }
 }

@@ -3,23 +3,77 @@
 ## Goals
 
 1. Keep track of pantry
-2. Find recipes available
-3. Create weekly food plan
-4. Generate shopping list
-5. Log calories
+2. Find/manage available recipes 
+3. Create/manage weekly food plan
+4. Log calories
+5. Generate shopping list
 
-## Scripts
+## Usage
 
-## Collect data
+### Keep track of pantry
 
-```
-function collect(id) {
-    var data = jQuery(`.${id} .target-text`).map((i, k) => jQuery(k).text().split(' ')[0]);
+#### Find food
 
-    var result = { "calories": data[0], "protein": data[1], "carbohydrate": data[2], "fat": data[3] };
+`node bin/cli.js find --food <food-name>`
 
-    JSON.stringify(result);
+#### Add food to pantry
 
-    copy(result);
-}
-```
+`node bin/cli.js add --food <food-name> --to-pantry`
+
+### Find/manage available recipes
+
+#### Find ready-to-be-made recipes
+
+`node bin/cli.js shake`
+
+#### Find recipe
+
+`node bin/cli.js find --recipe <recipe-title>`
+
+#### Create recipe
+
+`node bin/cli.js add --recipe <recipe-title>`
+
+#### Edit recipe
+
+`node bin/cli.js edit --recipe <recipe-title>`
+
+### Create/manage weekly food plan
+
+#### Plan recipes
+
+`node bin/cli.js plan -add-recipe <recipe-title>`
+
+Which day:
+- `--today`
+- `--yesterday`
+- `--day <date>`
+
+#### Add a food item to a day plan
+
+`node bin/cli.js plan -add-food <food-name> --food-group <food-group>`
+
+Which day:
+- `--today`
+- `--yesterday`
+- `--day <date>`
+
+#### Edit plan
+
+`node bin/cli.js plan -edit`
+
+Which day:
+- `--today`
+- `--yesterday`
+- `--day <date>`
+
+### Log calories
+
+#### Show nutrition for a day
+
+`node bin/cli.js plan --show-nutrition-info`
+
+Which day:
+- `--today`
+- `--yesterday`
+- `--day <date>`
