@@ -37,10 +37,14 @@ const getProportionalValue = (rawValue, weight) => {
 };
 
 const macro = (foodItem, weight = 100) => ({
-  calories: getProportionalValue(foodItem.macro.calories, weight),
-  protein: getProportionalValue(foodItem.macro.protein, weight),
-  carbohydrate: getProportionalValue(foodItem.macro.carbohydrate, weight),
-  fat: getProportionalValue(foodItem.macro.fat, weight),
+  calories: foodItem
+    ? getProportionalValue(foodItem.macro.calories, weight)
+    : 0,
+  protein: foodItem ? getProportionalValue(foodItem.macro.protein, weight) : 0,
+  carbohydrate: foodItem
+    ? getProportionalValue(foodItem.macro.carbohydrate, weight)
+    : 0,
+  fat: foodItem ? getProportionalValue(foodItem.macro.fat, weight) : 0,
 });
 
 export const getNutritionInfo = (plan) =>

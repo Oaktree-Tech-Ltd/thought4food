@@ -14,5 +14,25 @@
     "tags": [
       "dessert"
     ]
+  },
+  "spinach chickpea quiche": {
+    "ingredients": [
+      "chickpea flour:240",
+      "nutritional yeast:15",
+      "baking powder:1tsp",
+      "black salt:0.5tsp",
+      "turmeric:0.25tsp",
+      "black pepper:0.13tsp",
+      "spinach:60",
+      "garlic gloves:3u",
+      "water:480",
+      "olive oil:1tbsp"
+    ],
+    "instructions": [
+      "Preheat the oven to 200°C. Coat two pie plates with olive oil.",
+      "Combine the flour, yeast, baking powder, salt, turmeric, and pepper in a large bowl. Stir in the spinach and garlic, then whisk in the water and olive oil.",
+      "Pour in the batter and bake for 45 minutes, or until cooked through and a toothpick inserted in the middle comes out clean. Remove from the oven and let cool for 15 minutes (Keeps for up to 3 days in the fridge)."
+    ],
+    "tags": []
   }
 }

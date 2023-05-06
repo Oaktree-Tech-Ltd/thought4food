@@ -708,5 +708,15 @@
       "fat": "99.1"
     },
     "weight": "100g"
+  },
+  {
+    "name": "chickpea flour",
+    "macro": {
+      "calories": "356.0",
+      "protein": "20.6",
+      "carbohydrate": "43.0",
+      "fat": "6.2"
+    },
+    "weight": "100g"
   }
 ]
