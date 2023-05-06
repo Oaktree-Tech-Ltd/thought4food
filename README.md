@@ -1,5 +1,7 @@
 # Food Plan
 
+More food, fewer calories.
+
 ## Goals
 
 1. Keep track of pantry
