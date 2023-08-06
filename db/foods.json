@@ -47,6 +47,9 @@
       "protein": "17.0",
       "carbohydrate": "11.9",
       "fat": "53.8"
+    },
+    "conversions": {
+      "tbsp": 15
     }
   },
   {
@@ -57,6 +60,9 @@
       "protein": "29.6",
       "carbohydrate": "11.6",
       "fat": "46.0"
+    },
+    "conversions": {
+      "tbsp": 16
     }
   },
   {
@@ -97,6 +103,9 @@
       "protein": "7.1",
       "carbohydrate": "16.0",
       "fat": "2.8"
+    },
+    "conversions": {
+      "cup": 164
     }
   },
   {
@@ -197,6 +206,9 @@
       "protein": "0.7",
       "carbohydrate": "3.1",
       "fat": "0.3"
+    },
+    "conversions": {
+      "u": 101
     }
   },
   {
@@ -217,6 +229,9 @@
       "protein": "0.7",
       "carbohydrate": "12.1",
       "fat": "0.3"
+    },
+    "conversions": {
+      "cup": 148
     }
   },
   {
@@ -237,6 +252,11 @@
       "protein": "0.3",
       "carbohydrate": "10.6",
       "fat": "0.2"
+    },
+    "conversions": {
+      "large": 223,
+      "medium": 182,
+      "small": 149
     }
   },
   {
@@ -247,6 +267,11 @@
       "protein": "1.1",
       "carbohydrate": "20.2",
       "fat": "0.3"
+    },
+    "conversions": {
+      "large": 136,
+      "medium": 118,
+      "small": 101
     }
   },
   {
@@ -257,6 +282,9 @@
       "protein": "1.8",
       "carbohydrate": "68.3",
       "fat": "0.2"
+    },
+    "conversions": {
+      "u": 24
     }
   },
   {
@@ -277,6 +305,9 @@
       "protein": "2.9",
       "carbohydrate": "0.2",
       "fat": "1.5"
+    },
+    "conversions": {
+      "cup": 21
     }
   },
   {
@@ -317,6 +348,10 @@
       "protein": "0.9",
       "carbohydrate": "6.6",
       "fat": "0.2"
+    },
+    "conversions": {
+      "cup,grated": 110,
+      "cup,diced": 128
     }
   },
   {
@@ -327,6 +362,9 @@
       "protein": "3.3",
       "carbohydrate": "3.5",
       "fat": "0.4"
+    },
+    "conversions": {
+      "cup,sliced": 86
     }
   },
   {
@@ -337,6 +375,9 @@
       "protein": "2.2",
       "carbohydrate": "4.3",
       "fat": "0.5"
+    },
+    "conversions": {
+      "cup,sliced": 70
     }
   },
   {
@@ -347,6 +388,11 @@
       "protein": "1.0",
       "carbohydrate": "3.9",
       "fat": "0.3"
+    },
+    "conversions": {
+      "large": 164,
+      "medium": 119,
+      "small": 74
     }
   },
   {
@@ -367,6 +413,9 @@
       "protein": "1.0",
       "carbohydrate": "8.0",
       "fat": "0.5"
+    },
+    "conversions": {
+      "small": 70
     }
   },
   {
@@ -447,6 +496,9 @@
       "protein": "14.3",
       "carbohydrate": "4.2",
       "fat": "67.1"
+    },
+    "conversions": {
+      "u": 5
     }
   },
   {
@@ -477,6 +529,9 @@
       "protein": "0.6",
       "carbohydrate": "3.2",
       "fat": "1.7"
+    },
+    "conversions": {
+      "tbsp": 20
     }
   },
   {
@@ -487,6 +542,9 @@
       "protein": "6.2",
       "carbohydrate": "49.3",
       "fat": "29.3"
+    },
+    "conversions": {
+      "cup": 182
     }
   },
   {
@@ -517,6 +575,9 @@
       "protein": "46.7",
       "carbohydrate": "20.0",
       "fat": "6.7"
+    },
+    "conversions": {
+      "tbsp": 7.5
     }
   },
   {
@@ -718,5 +779,18 @@
       "fat": "6.2"
     },
     "weight": "100g"
+  },
+  {
+    "name": "olive oil",
+    "macro": {
+      "calories": "884.0",
+      "protein": "0.0",
+      "carbohydrate": "0.0",
+      "fat": "100.0"
+    },
+    "weight": "100g",
+    "conversions": {
+      "tbsp": 13.5
+    }
   }
 ]
